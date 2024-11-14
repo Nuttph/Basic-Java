@@ -1,8 +1,5 @@
 class DataType {
     public static void main(String[] args) {
-        String name = "Nuttaphon";
-        System.out.println(name);
-
         int myNum = 15;
         float myFloat = 20.5f;
         char myLetter = 'D';
@@ -15,5 +12,23 @@ class DataType {
         // final is count(Java Script)
         final int onlyNum = 15;
         System.err.println(onlyNum);
+
+        final String name = "Nuttaphon";
+        final String surname = "Popardit";
+        System.err.println(name + surname);
+
+        // Student data
+        String studentName = "John Doe";
+        int studentID = 15;
+        int studentAge = 23;
+        float studentFee = 75.25f;
+        char studentGrade = 'B';
+
+        // Print variables
+        System.out.println("Student name: " + studentName);
+        System.out.println("Student id: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println("Student grade: " + studentGrade);
     }
 }
