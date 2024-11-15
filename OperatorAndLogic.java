@@ -15,5 +15,12 @@ public class OperatorAndLogic {
         System.out.println("a >= d :" + (a >= d));
         System.out.println("a == d :" + (a == d));
         System.out.println("a != d :" + (a != d));
+
+        boolean t = true;
+        boolean f = false;
+        System.out.println("t && f :" + (t && f));
+        System.out.println("t || f :" + (t || f));
+        System.out.println("!f :" + (!f));
+
     }
 }
